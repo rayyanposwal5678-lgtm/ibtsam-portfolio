@@ -1,0 +1,18 @@
+name: Improvement
+description: Suggest a focused improvement to the portfolio.
+title: 'Improve: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What could work better?
+      description: Describe who is affected and what they are trying to do.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Include the intended behavior and any relevant examples.
+    validations:
+      required: true

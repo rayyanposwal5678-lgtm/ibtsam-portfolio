@@ -1,0 +1,30 @@
+# Local drafts, extracted assets, and previews
+.backup/
+.preview/
+assets/
+
+# Generated output and caches
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

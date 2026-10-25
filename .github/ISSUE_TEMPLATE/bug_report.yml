@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible problem with the portfolio or its tooling.
+title: 'Bug: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the affected page section or command.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: Describe the steps someone else can follow.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device, or development environment
+      placeholder: Browser version, operating system, and viewport size if relevant
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or error output
+      description: Remove private information before attaching anything.
